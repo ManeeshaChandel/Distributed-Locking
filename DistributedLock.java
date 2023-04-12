@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 public class DistributedLock {
-
     private final String zkHost;
     private final String lockName;
     private final String lockPath;
